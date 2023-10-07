@@ -8,7 +8,7 @@ import pandas as pd
 import chainlit as cl
 import io
 
-open_ai_key = "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"
+open_ai_key = "your_API_key"
 
 # Create a OpenAI object.
 llm = OpenAI(openai_api_key=open_ai_key)
